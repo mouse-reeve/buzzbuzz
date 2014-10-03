@@ -1,4 +1,4 @@
 buzzbuzz
 ========
 
-buzzfeed garbler
+buzzfeed garbler chrome extension
