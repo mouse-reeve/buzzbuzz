@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "BuzzBuzz",
+    "description": "buzz, buzz",
+    "version": "1.0",
+    
+    "content_scripts": [{
+        "matches": ["http://www.buzzfeed.com/*"],
+        "js": [
+            "jquery-2.0.3.js",
+            "feeder.js"
+        ]
+    }],
+    "permissions": [
+        "http://www.buzzfeed.com/*"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    }
+}
